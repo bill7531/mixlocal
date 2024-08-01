@@ -215,5 +215,14 @@ meta::forest(m.analgesicduration.md,
              digits.mean = 1,
              digits.sd = 1)
 
+m.complete.ultrasound <- update(m.complete.md, subgroup = ultrasound, tau.common = TRUE)
+m.complete.ultrasound$pval.random.w #to see p value
+m.complete.rob <- update(m.complete.md, subgroup = bias, tau.common = TRUE)
+m.complete.rob$pval.random.w
+m.complete.block <- update(m.complete.md, subgroup = blockgroup, tau.common = TRUE)
+m.complete.block$pval.common.w
+m.complete.country <- update(m.complete.md, subgroup = devcountry, tau.common = TRUE)
+m.complete.country$pval.common.w
+m.complete.epi <- update(m.complete.md, subgroup = epi, tau.common = TRUE)
 m.complete.md.rma <- rma(yi = m.complete.md$TE, sei = m.complete.smd$seTE, method = m.complete.smd$method.tau, test = "knha")
 m.complete.md.gosh <- gosh (m.complete.md.rma)
