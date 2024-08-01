@@ -1,0 +1,507 @@
+Study Identifier,Intervention,Group Name,Sponsorship source,Country,Setting,Comments,Authors name,Institution,Email,Address,Year of study,Design,Group,Other,Inclusion criteria,Exclusion criteria,"Block technique (Stimulator, Ultrasound, both or Neither)",Nerve block done (ex. axillary),Number of withdrawals,Reason for withdrawals,Surgical time (minutes) ± SD,Time to perform block (minutes) ± SD,Total sample size,"Where is the surgery (hand, forearm, etc.)",Group differences,"Baseline ASA (n of I, II, III, IV, V )",Baseline BMI ± SD,Baseline Gender (% of male),Baseline Mean age (years) ± SD,Intervention Adjuvant (name and dose),Intervention Long acting anesthetic (concentration %),"Intervention Long acting anesthetic (dose, mg)",Intervention Long acting anesthetic (name),"Intervention Long acting anesthetic (volume, if range described, record max)",Intervention Mixture proportion by volume (long:short),Intervention Number of participants allocated,Intervention Short acting anesthetic (concentration %),"Intervention Short acting anesthetic (dose, mg)",Intervention Short acting anesthetic (name),"Intervention Short acting anesthetic (volume, if range described, record max)","Intervention Total volume of local (if range described, record max)",Time to onset of sensory block - Reported name,Time to onset of sensory block per study definition Reported time,Time to onset of sensory block per study definition mean,Time to onset of sensory block per study definition SD,Time to onset of sensory block per study definition N,Time to resolution of motor block - Reported name,Time to resolution of motor block Baseline Reported time,Time to resolution of motor block Baseline mean,Time to resolution of motor block Baseline SD,Time to resolution of motor block Baseline N,Time to resolution sensory block - Reported name,Time to resolution sensory block Baseline Reported time,Time to resolution sensory block Baseline mean,Time to resolution sensory block Baseline SD,Time to resolution sensory block Baseline N,Time to onset of motor block - Reported name,Time to onset of motor block Baseline Reported time,Time to onset of motor block Baseline mean,Time to onset of motor block Baseline SD,Time to onset of motor block Baseline N,Time to complete sensory block - Reported name,Time to complete sensory block per study Reported time,Time to complete sensory block per study mean,Time to complete sensory block per study SD,Time to complete sensory block per study N,Time to complete motor block - Reported name,Time to complete motor block Baseline Reported time,Time to complete motor block Baseline mean,Time to complete motor block Baseline SD,Time to complete motor block Baseline N,Time of analgesia (either to analgesic request or pain score) - Reported name,Time of analgesia (either to analgesic request or pain score) Baseline Reported time,Time of analgesia (either to analgesic request or pain score) Baseline mean,Time of analgesia (either to analgesic request or pain score) Baseline SD,Time of analgesia (either to analgesic request or pain score) Baseline N,Incomplete or failed block - Reported name,Incomplete or failed block Baseline Reported time,Incomplete or failed block Baseline n,Incomplete or failed block Baseline N,Time to total block - Reported name,Time to total block Baseline Reported time,Time to total block Baseline mean,Time to total block Baseline SD,Time to total block Baseline N
+R 2023,Long Acting Local Only,Group B,"his research work was locally funded by the Department of 
+Anaesthesiology, Mahatma Gandhi Medical College and Research Institute, 
+Pondicherry",India,University Hospital,NA,Sripriya R,"Anesthesiology, Mahatma Gandhi Medical College and Research Institute, Pondicherry, India",drsiva95@gmail.com,NA,2023,Randomized controlled trial,NA,NA,"Patients aged 18–60years belonging to American Society of Anes-
+thesiologists (ASA) physical status I and II scheduled for upper 
+extremity bone surgeries, at or below the elbow under SCBPB, 
+were included in the study.","Patients who refused to participate, 
+gave a history of allergy to LA drugs, and had evidence of coag-
+ulopathy, neurological deficit, infection at supraclavicular fossa, 
+respiratory compromise or difficult sonoanatomy were excluded.",Ultrasound,Suprascapular,0,NA,"Group B: 54 ±20
+Group LB: 52 ± 18","Group B: 64 ± 20
+Group LB: 26 ±9",63,"upper extremity bone surgeries, at or below the elbow ","The three study groups were 
+comparable with respect to demographic data, type of surgery 
+performed, and other clinical variables",16/5,26±4,67,37 ± 13,"epinephrine (1:200,000)",0.5,100,Bupivacaine,20,NA,21,NA,NA,NA,NA,20,"","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",732,111.2,21,"","",11,21,"","",21,7,21
+R 2023,Mixture #1,Group LB,"his research work was locally funded by the Department of 
+Anaesthesiology, Mahatma Gandhi Medical College and Research Institute, 
+Pondicherry",India,University Hospital,NA,Sripriya R,"Anesthesiology, Mahatma Gandhi Medical College and Research Institute, Pondicherry, India",drsiva95@gmail.com,NA,2023,Randomized controlled trial,NA,NA,"Patients aged 18–60years belonging to American Society of Anes-
+thesiologists (ASA) physical status I and II scheduled for upper 
+extremity bone surgeries, at or below the elbow under SCBPB, 
+were included in the study.","Patients who refused to participate, 
+gave a history of allergy to LA drugs, and had evidence of coag-
+ulopathy, neurological deficit, infection at supraclavicular fossa, 
+respiratory compromise or difficult sonoanatomy were excluded.",Ultrasound,Suprascapular,0,NA,"Group B: 54 ±20
+Group LB: 52 ± 18","Group B: 64 ± 20
+Group LB: 26 ±9",63,"upper extremity bone surgeries, at or below the elbow ","The three study groups were 
+comparable with respect to demographic data, type of surgery 
+performed, and other clinical variables",13/8,23±5,67,44 ±13,Epinephrine 1:200000,0.5,50,Bupivacaine,10,1:1,21,2,200,Lidocaine,10,20,"","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",498,177.9,21,"","",1,21,"","",16,7,21
+Almasi 2020,Long Acting Local Only,BS,None,Hungary,University Hospital,na,Robert Almasi,"Department of Anesthesiology and Intensive Care, University of Pecs Medical School, 7624, Pécs Ifjuság u.13, Hungary", almasi.robert@pte.hu,na,2020,Randomized controlled trial,na,na,"American Society of Anesthesiologist physical status I-III
+consecutive adult patients aged between 19 and 83 years old scheduled
+for elective or emergency trauma surgery of hand and forearm under
+ultrasound-guided BPB","Patients were excluded if continuous peripheral nerve catheter
+technique or bilateral block was planned, or the patient refused to
+participate. Exclusion criteria included psycho-mental conditions inter-
+fering with consent or assessment; pre-existing chronic pain condition or
+daily analgesic or sedative consumption; sedative or analgesic
+premedication; pre-existing neurological disorders affecting the brachial
+plexus; obstructive sleep apnea; contraindications to peripheral nerve
+blockade including local skin infections or allergy to local anesthetic
+agents",Ultrasound,axillary plus supraclavicular,2,Lost to follow up,"BS: 70.71 ±10.64 
+LB: 69.52 ± 6.19
+BL: 72.82 ± 6.45",na,87,hand and forearm,"85 patients allocated into four com-
+parable study groups, the demographic data, and clinical characteristics
+of which were statistically similar. (p < 0.05) ",5:7:2,26.51±1.34,21,51.85 ± 5.31,NA,0.5,100,Bupivacaine,20,NA,14,NA,NA,NA,NA,30,"","","","","","","","","","","","",546.4,14.9,14,"","","","","","","",17.21,0.74,14,"","",17.57,0.72,14,"","","","","","","","","","","","","",""
+Almasi 2020,Mixture #1,LB 1:1,None,Hungary,University Hospital,na,Robert Almasi,"Department of Anesthesiology and Intensive Care, University of Pecs Medical School, 7624, Pécs Ifjuság u.13, Hungary", almasi.robert@pte.hu,na,2020,Randomized controlled trial,na,na,"American Society of Anesthesiologist physical status I-III
+consecutive adult patients aged between 19 and 83 years old scheduled
+for elective or emergency trauma surgery of hand and forearm under
+ultrasound-guided BPB","Patients were excluded if continuous peripheral nerve catheter
+technique or bilateral block was planned, or the patient refused to
+participate. Exclusion criteria included psycho-mental conditions inter-
+fering with consent or assessment; pre-existing chronic pain condition or
+daily analgesic or sedative consumption; sedative or analgesic
+premedication; pre-existing neurological disorders affecting the brachial
+plexus; obstructive sleep apnea; contraindications to peripheral nerve
+blockade including local skin infections or allergy to local anesthetic
+agents",Ultrasound,axillary plus supraclavicular,2,Lost to follow up,"BS: 70.71 ±10.64 
+LB: 69.52 ± 6.19
+BL: 72.82 ± 6.45",na,87,hand and forearm,"85 patients allocated into four com-
+parable study groups, the demographic data, and clinical characteristics
+of which were statistically similar. (p < 0.05) ",5/12/0,27.06±1.47,53,55.76 ± 4.19,NA,0.5,75,Bupivacaine,15,1:1,17,1,150,Lidocaine,15,30,"","","","","","","","","","","","",392.9,20.4,17,"","","","","","","",16.64,0.89,17,"","",19.94,0.78,17,"","","","","","","","","","","","","",""
+Almasi 2020,Mixture #2,BL 2:1,None,Hungary,University Hospital,na,Robert Almasi,"Department of Anesthesiology and Intensive Care, University of Pecs Medical School, 7624, Pécs Ifjuság u.13, Hungary", almasi.robert@pte.hu,na,2020,Randomized controlled trial,na,na,"American Society of Anesthesiologist physical status I-III
+consecutive adult patients aged between 19 and 83 years old scheduled
+for elective or emergency trauma surgery of hand and forearm under
+ultrasound-guided BPB","Patients were excluded if continuous peripheral nerve catheter
+technique or bilateral block was planned, or the patient refused to
+participate. Exclusion criteria included psycho-mental conditions inter-
+fering with consent or assessment; pre-existing chronic pain condition or
+daily analgesic or sedative consumption; sedative or analgesic
+premedication; pre-existing neurological disorders affecting the brachial
+plexus; obstructive sleep apnea; contraindications to peripheral nerve
+blockade including local skin infections or allergy to local anesthetic
+agents",Ultrasound,axillary plus supraclavicular,2,Lost to follow up,"BS: 70.71 ±10.64 
+LB: 69.52 ± 6.19
+BL: 72.82 ± 6.45",na,87,hand and forearm,"85 patients allocated into four com-
+parable study groups, the demographic data, and clinical characteristics
+of which were statistically similar. (p < 0.05) ",6/7/1,26.04± 0.73,42.5,51.5 ±2.78,NA,0.5,100,Bupivacaine,20,2:1,40,1,100,Lidocaine,10,30,"","","","","","","","","","","","",458.7,11.9,40,"","","","","","","",16.92,0.51,40,"","",18,0.42,40,"","","","","","","","","","","","","",""
+Bobik 2020,Long Acting Local Only,Group B,NA,Poland,Teaching hospital,NA,Piotr Bobil,"Department of Anaesthesiology and Intensive Therapy, Medical University of Bialystok, Bialystok, Poland",piotr.bobik@umb.edu.pl,"Medical University of Bialystok, ul. M. Sklodowskiej-
+Curie 24A, 15-276 Bialystok, Poland",2020,Randomized controlled trial,NA,NA,"63 patients
+who underwent scheduled surgery of the upper limb (hand, fore-
+arm and elbow)","Patients with systemic
+diseases that could affect the function of the peripheral nervous
+system and sensory perception such as diabetes, rheumatoid arth-
+ritis, systemic lupus erythomatosus were excluded",Both,Axillary,3,"63 patients
+who underwent scheduled surgery of the upper limb (hand, fore-
+arm and elbow)",NA,NA,63,"upper limb (hand, fore-
+arm and elbow)","The study did not show statistically significant differences in
+demographic data such as sex, age, BMI (body mass index),
+physical state ASA (American Society of Anesthesiology) between
+studied groups",7/13,26±4.2,60,46 ±18.1,Epinephrine 1:200000,0.375,112.5,Bupivacaine ,30,NA,20,NA,NA,NA,NA,30,treat as complete sensory (dull to pin prick),"",13.2,5.2,20,"from the moment of motor block to the return of the fingers
+function","",690.4,151.5,20,sensory anesthesia to the emergence of post-operative pain,"",768.5,167.9,20,Treat as complete motor (very weak),"",26.2,8.2,20,"","","","","","","","","","","","","","","","","","","","","","","",""
+Bobik 2020,Mixture #1,Group R,NA,Poland,Teaching hospital,NA,Piotr Bobil,"Department of Anaesthesiology and Intensive Therapy, Medical University of Bialystok, Bialystok, Poland",piotr.bobik@umb.edu.pl,"Medical University of Bialystok, ul. M. Sklodowskiej-
+Curie 24A, 15-276 Bialystok, Poland",2020,Randomized controlled trial,NA,NA,"63 patients
+who underwent scheduled surgery of the upper limb (hand, fore-
+arm and elbow)","Patients with systemic
+diseases that could affect the function of the peripheral nervous
+system and sensory perception such as diabetes, rheumatoid arth-
+ritis, systemic lupus erythomatosus were excluded",Both,Axillary,3,"63 patients
+who underwent scheduled surgery of the upper limb (hand, fore-
+arm and elbow)",NA,NA,63,"upper limb (hand, fore-
+arm and elbow)","The study did not show statistically significant differences in
+demographic data such as sex, age, BMI (body mass index),
+physical state ASA (American Society of Anesthesiology) between
+studied groups",10/11,26.7±4.5,67,48.5±18.4,NA,0.5,150,Ropivacaine,30,NA,21,NA,NA,NA,NA,30,treat as complete sensory (dull to pin prick),"",13.7,9.6,21,"from the moment of motor block to the return of the fingers
+function","",625.1,180,21,sensory anesthesia to the emergence of post-operative pain,"",707.2,154.9,21,Treat as complete motor (very weak),"",25.5,10.9,21,"","","","","","","","","","","","","","","","","","","","","","","",""
+Bobik 2020,Mixture #2,Group BL,NA,Poland,Teaching hospital,NA,Piotr Bobil,"Department of Anaesthesiology and Intensive Therapy, Medical University of Bialystok, Bialystok, Poland",piotr.bobik@umb.edu.pl,"Medical University of Bialystok, ul. M. Sklodowskiej-
+Curie 24A, 15-276 Bialystok, Poland",2020,Randomized controlled trial,NA,NA,"63 patients
+who underwent scheduled surgery of the upper limb (hand, fore-
+arm and elbow)","Patients with systemic
+diseases that could affect the function of the peripheral nervous
+system and sensory perception such as diabetes, rheumatoid arth-
+ritis, systemic lupus erythomatosus were excluded",Both,Axillary,3,"63 patients
+who underwent scheduled surgery of the upper limb (hand, fore-
+arm and elbow)",NA,NA,63,"upper limb (hand, fore-
+arm and elbow)","The study did not show statistically significant differences in
+demographic data such as sex, age, BMI (body mass index),
+physical state ASA (American Society of Anesthesiology) between
+studied groups",9/10,26.8±3.8,68.4,51.8 ±18.8,Epinephrine 1:200000,.5,75,Bupivacaine,15,1:1,19,2,300,Lidocaine,15,30,treat as complete sensory (dull to pin prick),"",10.8,4.7,19,"from the moment of motor block to the return of the fingers
+function","",436,104.7,19,sensory anesthesia to the emergence of post-operative pain,"",530.5,108.7,19,Treat as complete motor (very weak),"",19,9.3,19,"","","","","","","","","","","","","","","","","","","","","","","",""
+Zupcic 2017,Long Acting Local Only,Group LG,None,Croatia,University Hospital,NA,Miroslav Župčić,"Clinic of Anesthesiology, Reanimatology  and Intensive Care Medicine, Clinical  Hospital Dubrava",miro_zupcic@yahoo.com,"Av. G. Šuška 6
+10000 Zagreb, Croatia",2017,Randomized controlled trial,NA,NA,"The candidates for inclusion were consecutive women 
+with breast cancer scheduled for surgical quadrantectomy 
+with ipsilateral axillary lymph node dissection. The inclu-
+sion criteria were age 18-80 years, body weight 50-95 kg, 
+American Society of Anesthesiologists (ASA) physical sta-
+tus I or II, and signed informed consent.","The exclusion cri-
+teria were coagulation disorders, infection in the areas of 
+intended block application, neuropathy, failed PVB, uncon-
+trolled psychiatric disorders, allergy to medications used in 
+the trial, contraindications for the use of Vigileo / FloTrac 
+system, and valvular diseases or abnormal heart rhythm.",Both,Paravertebral block,5,Unsucessful block,"LG group: 50.0 (50.0-60.0) 
+LLG group: 50.0 (50.0-60.0)",NA,85,Breast and axillary node,"Statistical analy-
+sis of patient characteristics, duration of surgery and mo-
+bilization after surgery, included Mann Whitney U test and 
+Fisher test and did not show significant differences be-
+tween groups ( Table 1)",23,24.6±0.94,0,54.5 ± 3.04,NA,0.5,105,Levobupivacaine,21,NA,40,NA,NA,NA,NA,21,"","",8.5,0.51,40,"","","","","","","","","","","","","","","","","","","","","","","","","","","",490,15.3,40,"","","","","","",37,1.02,40
+Zupcic 2017,Mixture #1,Group LLG,None,Croatia,University Hospital,NA,Miroslav Župčić,"Clinic of Anesthesiology, Reanimatology  and Intensive Care Medicine, Clinical  Hospital Dubrava",miro_zupcic@yahoo.com,"Av. G. Šuška 6
+10000 Zagreb, Croatia",2017,Randomized controlled trial,NA,NA,"The candidates for inclusion were consecutive women 
+with breast cancer scheduled for surgical quadrantectomy 
+with ipsilateral axillary lymph node dissection. The inclu-
+sion criteria were age 18-80 years, body weight 50-95 kg, 
+American Society of Anesthesiologists (ASA) physical sta-
+tus I or II, and signed informed consent.","The exclusion cri-
+teria were coagulation disorders, infection in the areas of 
+intended block application, neuropathy, failed PVB, uncon-
+trolled psychiatric disorders, allergy to medications used in 
+the trial, contraindications for the use of Vigileo / FloTrac 
+system, and valvular diseases or abnormal heart rhythm.",Both,Paravertebral block,5,Unsucessful block,"LG group: 50.0 (50.0-60.0) 
+LLG group: 50.0 (50.0-60.0)",NA,85,Breast and axillary node,"Statistical analy-
+sis of patient characteristics, duration of surgery and mo-
+bilization after surgery, included Mann Whitney U test and 
+Fisher test and did not show significant differences be-
+tween groups ( Table 1)",30,26.2 ±1.12,0,60 ± 3.65,NA,0.5,70,Levobupivacaine,14,2:1,40,2,140,Lidocaine,7,21,"","",3.0,0.26,40,"","","","","","","","","","","","","","","","","","","","","","","","","","","",385,28.1,40,"","","","","","",23,1.28,40
+Pongraweewan 2016,Long Acting Local Only,Group B,None,Thailand,University Hospital,NA,Orawan Pongraweewan,"Department of Anesthesiology, Faculty of Medicine Siriraj Hospital, Mahidol University,",ongraweewan@yahoo.com," Wanglang
+Road, Bangkoknoi, Bangkok 10700",2016,Randomized controlled trial,NA,NA,"18
+year old, BMI between 20-35 kg/m2, consent for BPB,
+cooperated, communicable and, able to read and write
+Thai language","Exclusion criteria were body weight less
+than 35 kg, allergy to local anesthetics, pre-operative
+neurological deficit, neuromuscular disorder or old CVA,
+psychiatric disorder, coagulation disorder, congestive
+heart failure, pregnancy, and infection at the site of
+block",both,Infraclavicular,NA,NA,"Gr. B: 119±38
+Gr. BL: 128 ± 44",NA,90,Arteriovenous Fistula Creation,None,NA,23±4.5,39,65±13,NA,0.5,150,Bupivacaine,30,NA,46,NA,NA,NA,NA,30,"","",2,0.29,46,"","",574.2,340.2,46,"","",673.8,424.2,46,"","",6.40,3.31,46,"","",6.68,0.94,46,"","","","","","","","","","","","",0,46,"","","","",""
+Pongraweewan 2016,Mixture #1,Group BL,None,Thailand,University Hospital,NA,Orawan Pongraweewan,"Department of Anesthesiology, Faculty of Medicine Siriraj Hospital, Mahidol University,",ongraweewan@yahoo.com," Wanglang
+Road, Bangkoknoi, Bangkok 10700",2016,Randomized controlled trial,NA,NA,"18
+year old, BMI between 20-35 kg/m2, consent for BPB,
+cooperated, communicable and, able to read and write
+Thai language","Exclusion criteria were body weight less
+than 35 kg, allergy to local anesthetics, pre-operative
+neurological deficit, neuromuscular disorder or old CVA,
+psychiatric disorder, coagulation disorder, congestive
+heart failure, pregnancy, and infection at the site of
+block",both,Infraclavicular,NA,NA,"Gr. B: 119±38
+Gr. BL: 128 ± 44",NA,90,Arteriovenous Fistula Creation,None,NA,23 ±4.2,50,58 ±15,NA,0.5,100,Bupivacaine,20,2:1,44,2,200,Lidocaine,10,30,"","",2.07,3,44,"","",690,369,44,"","",808.8,436.2,44,"","",7.70,5.64,44,"","",6.84,0.96,44,"","","","","","","","","","","","",0,44,"","","","",""
+Rohan 2014,Long Acting Local Only,Group RO,NA,India,Teaching Hospital,Unable to find Sponsorship information, Bhatia Rohan,"Department of Anaesthesiology, Himalayan Institute of Medical Sciences, Uttarakhand, India",moc.liamg@50layapsyrd,"Swami Ram Nagar, Dehradun, Uttarakhand 248140, India.",2014,Randomized controlled trial,NA,NA,"aged ≥ 18 years, 
+weighed ≥ 40 kg, had ASA (American Society of Anesthe-
+siologists) physical status I–III, and were scheduled to undergo 
+elective surgery on the upper extremity","Refused to participate in the present study, had neurological diseases 
+of the upper extremities, had contraindications to regional 
+anaesthesia and any of the study drugs (i.e. clonidine, ropivacaine 
+or lignocaine), and/or were pregnant or lactatin",Stimulator, supraclavicular block,0,N/A,"Ropivacaine+saline (Ro): 46.32 ± 38.03
+Ropivacaine+lignocaine (Rl): 58.52 ± 34.18
+Ropivacaine+clonidine (Rc): 83.88 ± 51.08",NA,75,upper extremity," no significant 
+differences were observed with respect to the following 
+factors: age, gender, height, weight and duration of surgery",N/A,N/A,80,38.20 ± 15.74,NA,0.75,150,Ropivacaine,20,NA,25,NA,NA,NA,NA,30,"","",8.72,1.13,25,"","",172.64,40.86,25,"","",227.44,36.27,25,"","",10.08,0.9,25,"","",15.12,1.42,25,"","",19.52,0.87,25,"","",297.04,24.8,25,"","","","","","","","",""
+Rohan 2014,Mixture #1,Group RL,NA,India,Teaching Hospital,Unable to find Sponsorship information, Bhatia Rohan,"Department of Anaesthesiology, Himalayan Institute of Medical Sciences, Uttarakhand, India",moc.liamg@50layapsyrd,"Swami Ram Nagar, Dehradun, Uttarakhand 248140, India.",2014,Randomized controlled trial,NA,NA,"aged ≥ 18 years, 
+weighed ≥ 40 kg, had ASA (American Society of Anesthe-
+siologists) physical status I–III, and were scheduled to undergo 
+elective surgery on the upper extremity","Refused to participate in the present study, had neurological diseases 
+of the upper extremities, had contraindications to regional 
+anaesthesia and any of the study drugs (i.e. clonidine, ropivacaine 
+or lignocaine), and/or were pregnant or lactatin",Stimulator, supraclavicular block,0,N/A,"Ropivacaine+saline (Ro): 46.32 ± 38.03
+Ropivacaine+lignocaine (Rl): 58.52 ± 34.18
+Ropivacaine+clonidine (Rc): 83.88 ± 51.08",NA,75,upper extremity," no significant 
+differences were observed with respect to the following 
+factors: age, gender, height, weight and duration of surgery",N/A,N/A,72,42.64±16.39,"Epinephrine 1:200,000",0.75,150,Ropivacaine,20,NA,25,2%,200,Lidocaine,10,30,"","",3.84,0.8,25,"","",183.76,26.73,25,"","",238.04,35.10,25,"","",5.76,1.05,25,"","",9.52,1.33,25,"","",14.32,0.94,25,"","",298.04,27.06,25,"","","","","","","","",""
+Chen 2013,Long Acting Local Only,Group r,"Department of Science and Technology of Wenzhou (No. Y20090133, No. H20090013).",China,University Hospital,na,Limei Chen,"Department of Anesthesiology, First Affiliated Hospital of Wenzhou Medical College",xuzhong@263.net,"2 Fuxue Road, Wenzhou City, Zhejiang Province 325000",2013,Randomized controlled trial,NA,NA," ASA physical status I-II (age
+18–50 years, weight 50–75 kg) who were scheduled to undergo knee
+joint surgery","patient refusal, anticoagulant treatment,
+an allergy to local anaesthetics, neurological or neuromuscular disease,
+severe liver or renal insufficiency, women of childbearing age and
+patients unlikely to be fully cooperative during the study, such as
+those with neurological or psychiatric disorders",Stimulator,Sciatic,0,NA,"r= 78 ± 26
+lr= 74±23",NA,60,knee,"There
+were no differences in patient characteristics between the
+groups",16/4,NA,80,39 ± 7,NA,0.75,75,Roppivacaine,10,NA,20,NA,NA,NA,NA,20,"","","","","","","","","","","","",494,109,20,"","","","","","","",24,5,20,"","","","","","","","","","","","","","","","","","",""
+Chen 2013,Mixture #1,Group rl,"Department of Science and Technology of Wenzhou (No. Y20090133, No. H20090013).",China,University Hospital,na,Limei Chen,"Department of Anesthesiology, First Affiliated Hospital of Wenzhou Medical College",xuzhong@263.net,"2 Fuxue Road, Wenzhou City, Zhejiang Province 325000",2013,Randomized controlled trial,NA,NA," ASA physical status I-II (age
+18–50 years, weight 50–75 kg) who were scheduled to undergo knee
+joint surgery","patient refusal, anticoagulant treatment,
+an allergy to local anaesthetics, neurological or neuromuscular disease,
+severe liver or renal insufficiency, women of childbearing age and
+patients unlikely to be fully cooperative during the study, such as
+those with neurological or psychiatric disorders",Stimulator,Sciatic,0,NA,"r= 78 ± 26
+lr= 74±23",NA,60,knee,"There
+were no differences in patient characteristics between the
+groups",17/3,NA,75,40 ± 9,NA,0.75,75,Ropivacaine,10,1:1,20,2,200,Lidocaine,10,20,"","","","","","","","","","","","",328,91,20,"","","","","","","",10,3,20,"","","","","","","","","","","","","","","","","","",""
+Valery 2013,Long Acting Local Only,Group A,NA,Republic of Belarus,Community hopspital,NA,Piacherski Valery,"Department of Anesthesiology Intensive Care, Mogilev Regional Hospital, Mogilev, Republic of Belarus.",pechersky.v@yandex.ru,"3-36, A. Kuleshov str., 
+Mogilev 212026, ",2013,Randomized controlled trial,NA,NA,"destination to an operation requiring anesthesia and the 
+presence of the patient’s written informed consent for the kind 
+of anesthesia and its probable complications.","atient’s refusal to take the 
+proposed kind of anesthesia, patients who are too young (age 
+< 18) or small (weight < 50 kg), patients with a physical status 
+value of ASA > 3, patients with allergic reactions to the applied 
+medications in anamnesis, coagulopathy, infectious skin lesions 
+at the injection area, neurological or nerve-muscular diseases, 
+heavy liver diseases or kidney deficiency, and the inability to 
+cooperate in the process",both,Sciatic,0,NA,NA,NA,60,leg,"No differences existed 
+between groups in terms of gender, body weight, age, or ASA 
+classification",NA,NA,85,42±12.92,NA,0.75,37.5,Ropivacaine,5,NA,20,NA,NA,NA,NA,5,"","","","","","","","","","","","","","","","","",55,7.41,20,"","",45,5.93,20,"","","","","","","",480,22.2,20,"","","","","","","","",""
+Valery 2013,Mixture #1,Group B,NA,Republic of Belarus,Community hopspital,NA,Piacherski Valery,"Department of Anesthesiology Intensive Care, Mogilev Regional Hospital, Mogilev, Republic of Belarus.",pechersky.v@yandex.ru,"3-36, A. Kuleshov str., 
+Mogilev 212026, ",2013,Randomized controlled trial,NA,NA,"destination to an operation requiring anesthesia and the 
+presence of the patient’s written informed consent for the kind 
+of anesthesia and its probable complications.","atient’s refusal to take the 
+proposed kind of anesthesia, patients who are too young (age 
+< 18) or small (weight < 50 kg), patients with a physical status 
+value of ASA > 3, patients with allergic reactions to the applied 
+medications in anamnesis, coagulopathy, infectious skin lesions 
+at the injection area, neurological or nerve-muscular diseases, 
+heavy liver diseases or kidney deficiency, and the inability to 
+cooperate in the process",both,Sciatic,0,NA,NA,NA,60,leg,"No differences existed 
+between groups in terms of gender, body weight, age, or ASA 
+classification",NA,NA,60,41±1.36,NA,0.75,75,Ropivacaine,10,NA,20,NA,NA,NA,NA,10,"","","","","","","","","","","","","","","","","",35,2.22,20,"","",30,1.48,20,"","","","","","","",480,66.7,20,"","","","","","","","",""
+Valery 2013,Mixture #2,Group C,NA,Republic of Belarus,Community hopspital,NA,Piacherski Valery,"Department of Anesthesiology Intensive Care, Mogilev Regional Hospital, Mogilev, Republic of Belarus.",pechersky.v@yandex.ru,"3-36, A. Kuleshov str., 
+Mogilev 212026, ",2013,Randomized controlled trial,NA,NA,"destination to an operation requiring anesthesia and the 
+presence of the patient’s written informed consent for the kind 
+of anesthesia and its probable complications.","atient’s refusal to take the 
+proposed kind of anesthesia, patients who are too young (age 
+< 18) or small (weight < 50 kg), patients with a physical status 
+value of ASA > 3, patients with allergic reactions to the applied 
+medications in anamnesis, coagulopathy, infectious skin lesions 
+at the injection area, neurological or nerve-muscular diseases, 
+heavy liver diseases or kidney deficiency, and the inability to 
+cooperate in the process",both,Sciatic,0,NA,NA,NA,60,leg,"No differences existed 
+between groups in terms of gender, body weight, age, or ASA 
+classification",NA,NA,80,42±18.36,NA,0.75,37.5,Ropivacaine,5,1:1,20,1,50,Lidocaine,5,10,"","","","","","","","","","","","","","","","","",14,3.71,20,"","",12,2.22,20,"","","","","","","",480,66.7,20,"","","","","","","","",""
+Laur 2012,Long Acting Local Only,Bupivacaine," the University of Iowa Department of
+Anesthesia",USA,University Hospital,NA,John J. Laur,"Department of Anesthesia; Department of Biostatistics, University of Iowa",john-laur@ uiowa.edu,"200 Hawkins Dr, Iowa City, IA 52242",2012,Randomized controlled trial,NA,NA,"(ASA) physical status I, II, and III patients
+(aged 18Y83 years) presenting for upper-extremity surgery distal
+to the shoulder, in whom an infraclavicular PNB was planned.",NA,Both,Infraclavicular,2,Late,NA,"Mepivacaine : 325
+Mixed: 317
+Bupivacaine: 360",95,"upper-extremity surgery distal
+to the shoulde","PNB performance and patient demographic
+data, which did not differ among groups. Although the mixed
+group did not achieve the predetermined sample size of 30 be-
+cause of the restratification, a post hoc power calculation dem-
+onstrated 85% power, indicating that an appropriate number of
+subjects were enrolled.",14/13/4,26,26%,43,NA,0.5,200,Bupivacaine,40,NA,31,NA,NA,NA,NA,40,"","",6,6.67,31,"","",1109,257.87,26,"","",850,442.38,26,"","","","","","","","","","","","",21,8.89,31,"","","","","","","",6,31,"","","","",""
+Laur 2012,Mixture #1,Mixed," the University of Iowa Department of
+Anesthesia",USA,University Hospital,NA,John J. Laur,"Department of Anesthesia; Department of Biostatistics, University of Iowa",john-laur@ uiowa.edu,"200 Hawkins Dr, Iowa City, IA 52242",2012,Randomized controlled trial,NA,NA,"(ASA) physical status I, II, and III patients
+(aged 18Y83 years) presenting for upper-extremity surgery distal
+to the shoulder, in whom an infraclavicular PNB was planned.",NA,Both,Infraclavicular,2,Late,NA,"Mepivacaine : 325
+Mixed: 317
+Bupivacaine: 360",95,"upper-extremity surgery distal
+to the shoulde","PNB performance and patient demographic
+data, which did not differ among groups. Although the mixed
+group did not achieve the predetermined sample size of 30 be-
+cause of the restratification, a post hoc power calculation dem-
+onstrated 85% power, indicating that an appropriate number of
+subjects were enrolled.",11/16/0,28,30%,36,"Epinephrine 1:200,000",0.5,100,Bupivacaine,20,1:1,27,1.5,300,Mepivacaine,20,40,"","",6,2.22,27,"","",556,343.08,23,"","",439,272.69,24,"","","","","","","","","","","","",17,6.67,27,"","","","","","","",0,27,"","","","",""
+Gadsden 2011,Long Acting Local Only,Bupivacaine,Departmental,USA,University Hospital,NA,Jeff Gadsden,"Thomas Jefferson University Hospital, Philadelphia, Pennsylvania",jeffgadsden@gmail.com," 1111 Amsterdam Avenue, New York, NY
+10025",2011,Randomized controlled trial,NA,NA,"ASA physical status I and II patients, 18 to 65 years old, scheduled
+for elective, outpatient arthroscopic shoulder surgery.","severe chronic obstructive pulmonary dis-ease, prior neck irradiation, coagulopathy, body mass index35 kg/m2, or inability to obtain clear ultrasound images ofthe brachial plexus at the interscalene level",Both,Interscalene,5,"Early operation
+Loss of contact
+","Bupivacaine= 74.3 ± 39.8
+Combination= 82.2± 49.3",NA,69,Shoulder arthroscopy," Demographic data and dose of pre-
+medication were similar among the groups",NA,30 ±6.8,65,54.3±10.2,NA,0.5,150,Bupivacaine,30,NA,21,NA,NA,NA,NA,30,"","","","","","","",984,564,21,"","","","","","","","","","","","",10.0,5.1,21,"","",7.3,4.0,21,"","",840,372,21,"","","","","","","","",""
+Gadsden 2011,Mixture #1,Combination,Departmental,USA,University Hospital,NA,Jeff Gadsden,"Thomas Jefferson University Hospital, Philadelphia, Pennsylvania",jeffgadsden@gmail.com," 1111 Amsterdam Avenue, New York, NY
+10025",2011,Randomized controlled trial,NA,NA,"ASA physical status I and II patients, 18 to 65 years old, scheduled
+for elective, outpatient arthroscopic shoulder surgery.","severe chronic obstructive pulmonary dis-ease, prior neck irradiation, coagulopathy, body mass index35 kg/m2, or inability to obtain clear ultrasound images ofthe brachial plexus at the interscalene level",Both,Interscalene,5,"Early operation
+Loss of contact
+","Bupivacaine= 74.3 ± 39.8
+Combination= 82.2± 49.3",NA,69,Shoulder arthroscopy," Demographic data and dose of pre-
+medication were similar among the groups",NA,27.6±5.5,65,55.8±16.3,NA,0.5,75,Bupivacaine,15,1:1,21,1.5,225,Mepivacaine,15,30,"","","","","","","",690,282,21,"","","","","","","","","","","","",11.3,5.3,21,"","",9.3,4.9,21,"","",618,294,21,"","","","","","","","",""
+Cuvillon 2009,Long Acting Local Only,Bupivacaine,"Supported by Programme National, Protocole Hospitalier de
+Recherche Clinique, Nîmes, France",France,University Hospital,NA,Philippe Cuvillon,"Division of the Department of Anesthesiology and Pain Management, University Groupe Caremeau Hospital,",philippe.cuvillon@wanadoo.fr,"De´partement Anesthe´sie Douleur, Hoˆpital Caremeau,
+Place professeur Debre´, 30029 Nîmes, France",2009,Randomized controlled trial,NA,NA,"patients
+scheduled to undergo lower limb surgery under
+combined femoral-sciatic nerve block were prospec-
+tively.","Patient refusal, age 
+18 yr, weight
+50 kg, ASA physical status 
+3, anticoagulant treat-
+ment, allergy to local anesthetics, neurologic or neu-
+romuscular disease, severe liver or renal insufficiency,
+women of childbearing age or patients unlikely to be
+fully cooperative during the study, such as those with
+neurological or psychiatric disorders",Stimulator,Femoral and sciatic,0,N/A,"BUPIVACAINE - 64 (34–123)
+Bupivacaine-Lidocaine - 50 (30-100)
+Ropivacaine - 62 (34-125)
+Ropicacaine-Lidocaine - 51 (34-75)",3,82,Lower limb,"No differences in age, sex, weight, height, ASA classification and duration or type of surgery were observed among the groups",NA,NA,55,55 ± 16,Epinephrine 1:200000,0.5,200,Bupivacaine,40,NA,20,NA,NA,NA,NA,40,"","","","","","","",1080,273.6,10,"","",1320,15,10,"","","","","","","","","","","","","","","","","",960,328.3,20,"","",3,20,"","",30,9.12,10
+Cuvillon 2009,Mixture #1,Bupivacaine-Lidocaine,"Supported by Programme National, Protocole Hospitalier de
+Recherche Clinique, Nîmes, France",France,University Hospital,NA,Philippe Cuvillon,"Division of the Department of Anesthesiology and Pain Management, University Groupe Caremeau Hospital,",philippe.cuvillon@wanadoo.fr,"De´partement Anesthe´sie Douleur, Hoˆpital Caremeau,
+Place professeur Debre´, 30029 Nîmes, France",2009,Randomized controlled trial,NA,NA,"patients
+scheduled to undergo lower limb surgery under
+combined femoral-sciatic nerve block were prospec-
+tively.","Patient refusal, age 
+18 yr, weight
+50 kg, ASA physical status 
+3, anticoagulant treat-
+ment, allergy to local anesthetics, neurologic or neu-
+romuscular disease, severe liver or renal insufficiency,
+women of childbearing age or patients unlikely to be
+fully cooperative during the study, such as those with
+neurological or psychiatric disorders",Stimulator,Femoral and sciatic,0,N/A,"BUPIVACAINE - 64 (34–123)
+Bupivacaine-Lidocaine - 50 (30-100)
+Ropivacaine - 62 (34-125)
+Ropicacaine-Lidocaine - 51 (34-75)",3,82,Lower limb,"No differences in age, sex, weight, height, ASA classification and duration or type of surgery were observed among the groups",NA,NA,71,46 ± 18,Epinephrine 1:200000,0.5,100,Bupivacaine,20,1:1,21,2,400,Lidocaine,20,40,"","","","","","","",720,291.8,10,"","",780,346.5,10,"","","","","","","","","","","","","","","","","",720,255.3,21,"","",4,21,"","",15,4.56,10
+Cuvillon 2009,Mixture #2,Ropivacaine,"Supported by Programme National, Protocole Hospitalier de
+Recherche Clinique, Nîmes, France",France,University Hospital,NA,Philippe Cuvillon,"Division of the Department of Anesthesiology and Pain Management, University Groupe Caremeau Hospital,",philippe.cuvillon@wanadoo.fr,"De´partement Anesthe´sie Douleur, Hoˆpital Caremeau,
+Place professeur Debre´, 30029 Nîmes, France",2009,Randomized controlled trial,NA,NA,"patients
+scheduled to undergo lower limb surgery under
+combined femoral-sciatic nerve block were prospec-
+tively.","Patient refusal, age 
+18 yr, weight
+50 kg, ASA physical status 
+3, anticoagulant treat-
+ment, allergy to local anesthetics, neurologic or neu-
+romuscular disease, severe liver or renal insufficiency,
+women of childbearing age or patients unlikely to be
+fully cooperative during the study, such as those with
+neurological or psychiatric disorders",Stimulator,Femoral and sciatic,0,N/A,"BUPIVACAINE - 64 (34–123)
+Bupivacaine-Lidocaine - 50 (30-100)
+Ropivacaine - 62 (34-125)
+Ropicacaine-Lidocaine - 51 (34-75)",3,82,Lower limb,"No differences in age, sex, weight, height, ASA classification and duration or type of surgery were observed among the groups",NA,NA,60,51 ± 17,Epinephrine 1:200000,0.75,300,Ropivacaine,40,NA,20,NA,NA,NA,NA,40,"","","","","","","",900,273.6,10,"","",1080,218.8,10,"","","","","","","","","","","","","","","","","",600,310,20,"","",1,20,"","",15,4.56,10
+Cuvillon 2009,Mixture #3,Ropivacaine-Lidocaine,"Supported by Programme National, Protocole Hospitalier de
+Recherche Clinique, Nîmes, France",France,University Hospital,NA,Philippe Cuvillon,"Division of the Department of Anesthesiology and Pain Management, University Groupe Caremeau Hospital,",philippe.cuvillon@wanadoo.fr,"De´partement Anesthe´sie Douleur, Hoˆpital Caremeau,
+Place professeur Debre´, 30029 Nîmes, France",2009,Randomized controlled trial,NA,NA,"patients
+scheduled to undergo lower limb surgery under
+combined femoral-sciatic nerve block were prospec-
+tively.","Patient refusal, age 
+18 yr, weight
+50 kg, ASA physical status 
+3, anticoagulant treat-
+ment, allergy to local anesthetics, neurologic or neu-
+romuscular disease, severe liver or renal insufficiency,
+women of childbearing age or patients unlikely to be
+fully cooperative during the study, such as those with
+neurological or psychiatric disorders",Stimulator,Femoral and sciatic,0,N/A,"BUPIVACAINE - 64 (34–123)
+Bupivacaine-Lidocaine - 50 (30-100)
+Ropivacaine - 62 (34-125)
+Ropicacaine-Lidocaine - 51 (34-75)",3,82,Lower limb,"No differences in age, sex, weight, height, ASA classification and duration or type of surgery were observed among the groups",NA,NA,62,45 ± 16,Epinephrine 1:200000,0.75,150,Ropivacaine,20,1:1,21,2,400,Lidocaine,20,40,"","","","","","","",660,145.9,10,"","",720,145.9,10,"","","","","","","","","","","","","","","","","",600,218.8,21,"","",2,21,"","",10,3.04,10
+Freitag 2006,Long Acting Local Only,Group 4,NA,Germany,University Hospital,NA, M. Freitag,University Medical Centre Hamburg,freitag@uke.uni-hamburg.," Department of Anaesthesiology, University
+Medical Centre Hamburg, Martini Strasse 52, D-20246 Hamburg, Germany.",2006,Randomized controlled trial,NA,NA,"ASA I–III, aged
+18–65 yr undergoing axillary perivascular brachial
+plexus anaesthesia for elective surgery of ½–2½ h of
+the hand, wrist or forearm","Exclu-
+sion criteria consisted of ASA physical status greater
+than III, known allergy to LA, coagulation abnor-
+malities, anaemia, haemoglobinopathy, pregnancy,
+obstructive pulmonary disease, unstable angina pec-
+toris and heart conduction block. Patients with alco-
+hol or drug abuse were also excluded.",Stimulator,Axillary,16,failed blocks,NA,NA,96," hand, wrist or forearm","Patient characteristics are shown in Table 1 and were
+comparable among groups with respect to gender, age,
+weight and ASA physical status.","1=12, 2=7, 3=1",NA,40,49 ± 20.6,NA,0.75,300,Ropivacaine,40,NA,20,NA,NA,NA,NA,40,"","","","","","","",745.7,47.1,20,"","",785.2,78.0,20,"","","","","","","",55,8.15,20,"","",62.8,10.9,20,"","","","","","","","","","","","","",""
+Freitag 2006,Mixture #1,Group 2,NA,Germany,University Hospital,NA, M. Freitag,University Medical Centre Hamburg,freitag@uke.uni-hamburg.," Department of Anaesthesiology, University
+Medical Centre Hamburg, Martini Strasse 52, D-20246 Hamburg, Germany.",2006,Randomized controlled trial,NA,NA,"ASA I–III, aged
+18–65 yr undergoing axillary perivascular brachial
+plexus anaesthesia for elective surgery of ½–2½ h of
+the hand, wrist or forearm","Exclu-
+sion criteria consisted of ASA physical status greater
+than III, known allergy to LA, coagulation abnor-
+malities, anaemia, haemoglobinopathy, pregnancy,
+obstructive pulmonary disease, unstable angina pec-
+toris and heart conduction block. Patients with alco-
+hol or drug abuse were also excluded.",Stimulator,Axillary,16,failed blocks,NA,NA,96," hand, wrist or forearm","Patient characteristics are shown in Table 1 and were
+comparable among groups with respect to gender, age,
+weight and ASA physical status.",12/8/0,NA,40,46.8 ±17.7,NA,0.75,75,Ropivacaine,10,1:3,20,1,300,Prilocaine,30,40,"","","","","","","",261.0,63.4,20,"","",276.3,112.1,20,"","","","","","","",29.5,5.29,20,"","",29.5,5.5,20,"","","","","","","","","","","","","",""
+Freitag 2006,Mixture #2,Group 3,NA,Germany,University Hospital,NA, M. Freitag,University Medical Centre Hamburg,freitag@uke.uni-hamburg.," Department of Anaesthesiology, University
+Medical Centre Hamburg, Martini Strasse 52, D-20246 Hamburg, Germany.",2006,Randomized controlled trial,NA,NA,"ASA I–III, aged
+18–65 yr undergoing axillary perivascular brachial
+plexus anaesthesia for elective surgery of ½–2½ h of
+the hand, wrist or forearm","Exclu-
+sion criteria consisted of ASA physical status greater
+than III, known allergy to LA, coagulation abnor-
+malities, anaemia, haemoglobinopathy, pregnancy,
+obstructive pulmonary disease, unstable angina pec-
+toris and heart conduction block. Patients with alco-
+hol or drug abuse were also excluded.",Stimulator,Axillary,16,failed blocks,NA,NA,96," hand, wrist or forearm","Patient characteristics are shown in Table 1 and were
+comparable among groups with respect to gender, age,
+weight and ASA physical status.",13/6/1,NA,45,45.8±18.4,NA,0.75,150,Ropivacaine,20,1:1,20,1,200,Prilocaine,20,40,"","","","","","","",388.2,66.6,20,"","",383.8,63.4,20,"","","","","","","",33.2,16.5,20,"","",36.9,8.2,20,"","","","","","","","","","","","","",""
+Abdelhady 2022,Long Acting Local Only,Group B,NA,Egypt,University Hospital,NA,Ibrahim Salah Mohammed Abdelhady,NA,ibrahimsalahabdelhady@med.asu.edu.eg,NA,2022,Randomized controlled trial,NA,NA, ESRD patients aged from 25−75 y,"Patients who had a history of neuromuscular disorder
+, 
+
+severe liver impairment, or heart disease were excluded
+
+from the research
+. 
+Also candidates who had localized
+
+infection at axilla, opioid dependence, a contraindication 
+
+to regional anesthesia, or who refused the consent
+, 
+were 
+
+excluded from this study",Ultrasound,Axillary,NA,Some patients were excluded due to failed but number not disclosed,"Group B: 50.5 ± 6.27
+Group BL: 53.32 ± 5.02
+",NA,66,AV Fistula,"There was no significant difference between the three 
+
+categories regarding the patient demographic criteria, e.g.,
+
+age, sex, diabetes, hypertension, body mass index, 
+
+coronary artery disease and left ventricular function
+, 
+as 
+
+shown in Table 1",NA,27.58 ±3.06,13.6,44.78 ± 8.33,NA,0.5,150,Bupivacaine,30,NA,22,NA,NA,NA,NA,30,"","",8.59,0.8,22,"","",562.68,23.72,22,"","",593.64,22.3,22,"","",9.77,0.97,22,"","","","","","","","","","","","",608.68,21.74,22,"","","","","","","","",""
+Abdelhady 2022,Mixture #1,Group BL,NA,Egypt,University Hospital,NA,Ibrahim Salah Mohammed Abdelhady,NA,ibrahimsalahabdelhady@med.asu.edu.eg,NA,2022,Randomized controlled trial,NA,NA, ESRD patients aged from 25−75 y,"Patients who had a history of neuromuscular disorder
+, 
+
+severe liver impairment, or heart disease were excluded
+
+from the research
+. 
+Also candidates who had localized
+
+infection at axilla, opioid dependence, a contraindication 
+
+to regional anesthesia, or who refused the consent
+, 
+were 
+
+excluded from this study",Ultrasound,Axillary,NA,Some patients were excluded due to failed but number not disclosed,"Group B: 50.5 ± 6.27
+Group BL: 53.32 ± 5.02
+",NA,66,AV Fistula,"There was no significant difference between the three 
+
+categories regarding the patient demographic criteria, e.g.,
+
+age, sex, diabetes, hypertension, body mass index, 
+
+coronary artery disease and left ventricular function
+, 
+as 
+
+shown in Table 1",NA,27.58 ± 2.62,18.18,48.95 ± 10.08,NA,0.5,75,Bupivacaine,15,1:1,22,2,300,Lidocaine,15,30,"","",7.8,1.3,22,"","",405.36,46.4,22,"","",442.14,11.54,22,"","",9.05,1.36,22,"","","","","","","","","","","","",439.02,18.27,22,"","","","","","","","",""
+Ozmen 2013,Long Acting Local Only,Group B,NA,Turkey,University Hospital,NA,Özgür Özmen,"Department of Anesthesia and Reanimation, Faculty of Medicine, Atatürk University,",mine.celik74@gmail.com,NA,2013,Randomized controlled trial,NA,NA,"urgent or elective, on 120 American Society of 
+Anesthesiology (ASA) classification I–II patients, between 
+18 and 65 years of age who had 50–100 kg body weight and 
+required either forearm or hand surgery","The patients that were 
+receiving hypotensive or antithrombolytic treatment, had 
+a neurological disease or infection in the intervention area, 
+were allergic to local anesthetic drugs, or were alcohol and/
+or narcotic addicts were excluded from the study.",Stimulator,Infraclavaicular,5,Inadequate block,NA,"Group B: 5.3 ± 2.46
+Group B +L: 5.3 ± 1.86",120,forearm or hand,"No statistically significant differences were determined 
+among group B, group L and group B + L in terms of sex, 
+age, ASA score, weight, height, depth of needle insertion, 
+block establishment time, needle insertion angle, or 
+number of needle redirections ",31/8,NA,77,34±15.7,NA,0.5,100,Bupivacaine,20,NA,39,NA,NA,NA,NA,20,"","",9.7,1.86,39,"","","","","","","","","","","","","","","","","","","","","","","","","","","",264,72.6,39,"","",1,40,"","",25.9,4.9,39
+Ozmen 2013,Mixture #1,Group B + L,NA,Turkey,University Hospital,NA,Özgür Özmen,"Department of Anesthesia and Reanimation, Faculty of Medicine, Atatürk University,",mine.celik74@gmail.com,NA,2013,Randomized controlled trial,NA,NA,"urgent or elective, on 120 American Society of 
+Anesthesiology (ASA) classification I–II patients, between 
+18 and 65 years of age who had 50–100 kg body weight and 
+required either forearm or hand surgery","The patients that were 
+receiving hypotensive or antithrombolytic treatment, had 
+a neurological disease or infection in the intervention area, 
+were allergic to local anesthetic drugs, or were alcohol and/
+or narcotic addicts were excluded from the study.",Stimulator,Infraclavaicular,5,Inadequate block,NA,"Group B: 5.3 ± 2.46
+Group B +L: 5.3 ± 1.86",120,forearm or hand,"No statistically significant differences were determined 
+among group B, group L and group B + L in terms of sex, 
+age, ASA score, weight, height, depth of needle insertion, 
+block establishment time, needle insertion angle, or 
+number of needle redirections ",32/6,NA,71,37 ± 6.9,NA,0.5,50,Bupivacaine,10,1:1,38,2,200,Lidocaine,10,20,"","",4.0,1.31,38,"","","","","","","","","","","","","","","","","","","","","","","","","","","",366,132.6,38,"","",2,40,"","",12.05,5,38
+Laigle 2012,Long Acting Local Only,Ropi,NA,France,University Hospital,NA,C. Laigle,"University Hospital, Department of Anaesthesiology and Intensive Care, Amiens, France",NA,NA,2012,Randomized controlled trial,NA,NA,"ASA status 
+1 or 2, receiving foot surgery",N/A,NA,Sciatic,NA,NA,NA,NA,30,foot surgery,NA,NA,NA,NA,55±4,NA,0.75,225,Ropivacaine,30,NA,15,NA,NA,NA,NA,30,"","",24.2,4,15,"","","","","","","",802,19,15,"","","","","","","","","","","","","","","","","","","","","","",2,15,"","","","",""
+Laigle 2012,Mixture #1,Ropi-Mepi,NA,France,University Hospital,NA,C. Laigle,"University Hospital, Department of Anaesthesiology and Intensive Care, Amiens, France",NA,NA,2012,Randomized controlled trial,NA,NA,"ASA status 
+1 or 2, receiving foot surgery",N/A,NA,Sciatic,NA,NA,NA,NA,30,foot surgery,NA,NA,NA,NA,63±3,NA,0.75,112.5,Ropivacaine,15,1:1,15,1.5,225,Mepivacaine,15,30,"","",13.2,2.2,15,"","","","","","","",738,34,15,"","","","","","","","","","","","","","","","","","","","","","",2,15,"","","","",""
+Kim 2011,Long Acting Local Only,R/NS,NA,USA,University Hospital,NA,Alexander I Kim ,University of New Mexico Health Sciences  Center,NA,NA,2011,Randomized controlled trial,NA,NA, outpatient upper extremity surgery,NA,NA,supraclavicular brachial plexus block,0,NA,NA,3.7,60,upper extremity ,"The two groups did not differ with respect to age, sex, or weight.",NA,NA,NA,NA,"Epinephrine 1:300,000",1,200,Ropivacaine,20,NA,30,NA,NA,NA,NA,30,"","","","","","","","","","","","","","","","","","","","","","",22,15.6,30,"","",25,17.0,30,"","",718,188.2,30,"","","","","","","","",""
+Kim 2011,Mixture #1,RC,NA,USA,University Hospital,NA,Alexander I Kim ,University of New Mexico Health Sciences  Center,NA,NA,2011,Randomized controlled trial,NA,NA, outpatient upper extremity surgery,NA,NA,supraclavicular brachial plexus block,0,NA,NA,3.7,60,upper extremity ,"The two groups did not differ with respect to age, sex, or weight.",NA,NA,NA,NA,"Epinephrine 1:300,000",1,200,Ropivacaine,20,2:1,30,3,300,Chloroprocaine,10,30,"","","","","","","","","","","","","","","","","","","","","","",16,13.3,30,"","",19,13.3,30,"","",566,179.3,30,"","","","","","","","",""
+Keckeis 1994,Long Acting Local Only,Group 1,NA,Germany,University Hospital,na,Von A. Keckeis ,e Clinic and Policlinic for Anaesthesiology and Intensive Therapy at the Medical Faculty of the University of Rostock,na,na,1994,Randomized controlled trial,na,na,76 patients who underwent operations on the forearm and hand at the Surgical University Clinic Rostock,not described,Stimulator,Axillary,3,NA,NA,NA,76,Forearm and hand,The patient groups did not differ significantly in the essential characteristics.,NA,NA,NA,NA,NA,0.5,150,Bupivacaine,30,NA,16,NA,NA,NA,NA,30,"","","","","","","","","","","","","","","","","","","","","","",43.7,8.7,16,"","",36.1,11.7,11,"Table 3, defined as time to pain in area","",714,168,16,"","","","","","","","",""
+Keckeis 1994,Mixture #1,Group 2,NA,Germany,University Hospital,na,Von A. Keckeis ,e Clinic and Policlinic for Anaesthesiology and Intensive Therapy at the Medical Faculty of the University of Rostock,na,na,1994,Randomized controlled trial,na,na,76 patients who underwent operations on the forearm and hand at the Surgical University Clinic Rostock,not described,Stimulator,Axillary,3,NA,NA,NA,76,Forearm and hand,The patient groups did not differ significantly in the essential characteristics.,NA,NA,NA,NA,NA,0.5,75,Bupivacaine,15,1:1,14,1,150,Lidocaine,15,30,"","","","","","","","","","","","","","","","","","","","","","",34.6,8.9,12,"","",32.5,17.7,2,"Table 3, defined as time to pain in area","",510,120,12,"","","","","","","","",""
+Keckeis 1994,Mixture #2,Group 3,NA,Germany,University Hospital,na,Von A. Keckeis ,e Clinic and Policlinic for Anaesthesiology and Intensive Therapy at the Medical Faculty of the University of Rostock,na,na,1994,Randomized controlled trial,na,na,76 patients who underwent operations on the forearm and hand at the Surgical University Clinic Rostock,not described,Stimulator,Axillary,3,NA,NA,NA,76,Forearm and hand,The patient groups did not differ significantly in the essential characteristics.,NA,NA,NA,NA,NA,0.5,75,Bupivacaine,15,1:1,16,1,150,Mepivacaine,15,30,"","","","","","","","","","","","","","","","","","","","","","",32.8,10.5,16,"","",26.7,14.4,8,"Table 3, defined as time to pain in area","",468,78,16,"","","","","","","","",""
+Keckeis 1994,Mixture #3,Group 4,NA,Germany,University Hospital,na,Von A. Keckeis ,e Clinic and Policlinic for Anaesthesiology and Intensive Therapy at the Medical Faculty of the University of Rostock,na,na,1994,Randomized controlled trial,na,na,76 patients who underwent operations on the forearm and hand at the Surgical University Clinic Rostock,not described,Stimulator,Axillary,3,NA,NA,NA,76,Forearm and hand,The patient groups did not differ significantly in the essential characteristics.,NA,NA,NA,NA,NA,0.5,75,Bupivacaine,15,1:1,15,1,150,Prilocaine,15,30,"","","","","","","","","","","","","","","","","","","","","","",34.3,10.9,14,"","",27.3,9.3,13,"Table 3, defined as time to pain in area","",426,96,14,"","","","","","","","",""
+Martin 1993,Long Acting Local Only,Group 2,NA,Canada,University Hospital,NA,R. Martin,"Département d'Anesthésie-Réanimation, Université de Sherbrooke",NA,NA,1993,Randomized controlled trial,NA,NA,elective upper limb surgery under axillary block were studied,NA,Stimulator,Axillary,2,had GA,NA,NA,60,upper limb distal to shoulder,"Age, sex, body surface area, type of surgery, and use of the tourniquet showed no significant differences between the three groups of patients studied",NA,NA,70,42.3  ± 15,Epinephrine 1:400000,0.25,110.6,Bupivacaine,44.25,NA,20,NA,NA,NA,NA,44.25,"","",23,14,20,"","","","","","","",476,276,20,"","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+Martin 1993,Mixture #1,Group 3,NA,Canada,University Hospital,NA,R. Martin,"Département d'Anesthésie-Réanimation, Université de Sherbrooke",NA,NA,1993,Randomized controlled trial,NA,NA,elective upper limb surgery under axillary block were studied,NA,Stimulator,Axillary,2,had GA,NA,NA,60,upper limb distal to shoulder,"Age, sex, body surface area, type of surgery, and use of the tourniquet showed no significant differences between the three groups of patients studied",NA,NA,60,44.1  ± 18.2,Epinephrine 1:400000,0.25,55.6,Bupivacaine,22.25,1:1,20,1,222.5,Lidocaine,22.25,44.5,"","",15,9,20,"","","","","","","",264,111,20,"","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+Aguilera 2024,Long Acting Local Only,Bupivacaine,NA,Chile,University Hospital,NA, Germán Aguilera ,Hospital de San Carlos, german.aguilera@gmail.com,"San Carlos, 3840511, Chile",2023,Randomized controlled trial,NA,NA,"individuals between the ages 
+of 18 and 80, American Society of Anesthesiologists classification I–III, and weighing ≥80kg. ","adults who were unable to consent, infection in the injection 
+site, pre-existing neuropathy, coagulopathy, renal failure, hepatic 
+failure, LA allergy, pregnancy or breast feeding, prior surgery in 
+the infraclavicular region, and chronic pain syndromes requiring 
+opioid intake at home",Ultrasound,Infraclavicular,3,failed block,"Bupivacaine+lidocaine= 67.8±41
+Bupivacaine= 66 ±53.8",NA,40,"Forearm, wrist and hand",Demographics and baseline charcteristics in both groups were similar,6:14:0,30.9±3.9,75,49.1± 18.5,"Epinephrine 1:200000, Dexamethasone 4 mg",0.5,175,Bupivacaine,35,na,20,NA,NA,NA,NA,35,"","","","","","","",1704,312,20,"","",1758,348,20,"","","","","","","","","","","","","","","","","",2298,444,20,"","",1,20,"","",35,11.1,20
+Aguilera 2024,Mixture #1,Bupivacaine + lidocaine,NA,Chile,University Hospital,NA, Germán Aguilera ,Hospital de San Carlos, german.aguilera@gmail.com,"San Carlos, 3840511, Chile",2023,Randomized controlled trial,NA,NA,"individuals between the ages 
+of 18 and 80, American Society of Anesthesiologists classification I–III, and weighing ≥80kg. ","adults who were unable to consent, infection in the injection 
+site, pre-existing neuropathy, coagulopathy, renal failure, hepatic 
+failure, LA allergy, pregnancy or breast feeding, prior surgery in 
+the infraclavicular region, and chronic pain syndromes requiring 
+opioid intake at home",Ultrasound,Infraclavicular,3,failed block,"Bupivacaine+lidocaine= 67.8±41
+Bupivacaine= 66 ±53.8",NA,40,"Forearm, wrist and hand",Demographics and baseline charcteristics in both groups were similar,4/15/1,31.8±3.1,80,48.7 ±16.9,"Epinephrine 1:200000, Dexamethasone 4 mg",0.5,87.5,Bupivacaine,17.5,1:1,20,2,345,Lidocaine,17.5,35,"","","","","","","",1134,186,20,"","",1122,240,20,"","","","","","","","","","","","","","","","","",1458,396,20,"","",2,20,"","",20,7.4,20
