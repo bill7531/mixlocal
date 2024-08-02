@@ -28,8 +28,10 @@ completesensory <- read.xlsx("completesensory.xlsx")
 ttmotor <- read.xlsx("ttmotor.xlsx")
 compeltemotor <- read.xlsx("completemotor.xlsx")
 sensoryduration <- read.xlsx("sensoryduration.xlsx")
+sensoryduration.la <- read.xlsx("sensoryduration.la.xlsx")
 motorduration <- read.xlsx("motorduration.xlsx")
 analgesicduration <- read.xlsx("analgesicduration.xlsx")
+analgesicduration.la <- read.xlsx("analgesicduration.la.xlsx")
 failure <- read.xlsx("failure.xlsx")
 
 
@@ -122,6 +124,20 @@ m.sensoryduration.md <- metacont(n.e = ne,
                                  method.tau = "REML",
                                  method.random.ci = "HK",
                                  title = "Duration of Motor Block")
+m.sensoryduration.la.md <- metacont(n.e = ne,
+                                 mean.e = meane,
+                                 sd.e = sde,
+                                 n.c = nc,
+                                 mean.c = meanc,
+                                 sd.c = sdc,
+                                 studlab = study,
+                                 data = sensoryduration.la,
+                                 sm = "MD",
+                                 fixed = FALSE,
+                                 random = TRUE,
+                                 method.tau = "REML",
+                                 method.random.ci = "HK",
+                                 title = "Duration of Motor Block")
 
 m.motorduration.md <- metacont(n.e = ne,
                                mean.e = meane,
@@ -154,6 +170,23 @@ m.analgesicduration.md <- metacont(n.e = ne,
                                    method.tau = "REML",
                                    method.random.ci = "HK",
                                    title = "Duration of Analgesia")
+m.analgesicduration.la.md <- metacont(n.e = ne,
+                                   mean.e = meane,
+                                   sd.e = sde,
+                                   n.c = nc,
+                                   mean.c = meanc,
+                                   sd.c = sdc,
+                                   studlab = study,
+                                   data = analgesicduration.la,
+                                   sm = "MD",
+                                   method.smd = "Hedges",
+                                   fixed = FALSE,
+                                   random = TRUE,
+                                   method.tau = "REML",
+                                   method.random.ci = "HK",
+                                   title = "Duration of Analgesia")
+
+m.failure.or <- metabin(event.e = ne, n.e = totale, event.c = nc, n.e = totale, studylab = study, data = failure, sm = "OR", method = "MH", MH.exact = TRUE, random = TRUE, method.tau = "PM", method.random.ci = "HK", title = "Block Failure")
 
 meta::forest(m.complete.md, 
              sortvar = studlab,
@@ -216,13 +249,35 @@ meta::forest(m.analgesicduration.md,
              digits.sd = 1)
 
 m.complete.ultrasound <- update(m.complete.md, subgroup = ultrasound, tau.common = TRUE)
+m.complete.ultrasound
 m.complete.ultrasound$pval.random.w #to see p value
 m.complete.rob <- update(m.complete.md, subgroup = bias, tau.common = TRUE)
+m.complete.rob
 m.complete.rob$pval.random.w
 m.complete.block <- update(m.complete.md, subgroup = blockgroup, tau.common = TRUE)
-m.complete.block$pval.common.w
+m.complete.block
+m.complete.block$pval.random.w
 m.complete.country <- update(m.complete.md, subgroup = devcountry, tau.common = TRUE)
-m.complete.country$pval.common.w
+m.complete.country
+m.complete.country$pval.random.w
+
 m.complete.epi <- update(m.complete.md, subgroup = epi, tau.common = TRUE)
-m.complete.md.rma <- rma(yi = m.complete.md$TE, sei = m.complete.smd$seTE, method = m.complete.smd$method.tau, test = "knha")
+m.complete.epi
+m.complete.epi$pval.random.w
+m.sensoryduration.la.md <- update(m.sensoryduration.la.md, subgroup = samedose, tau.common = TRUE)
+m.sensoryduration.la.md
+m.sensoryduration.la.md$pval.random.w
+m.sensoryduration.epi.md <- update (m.sensoryduration.md, subgroup = epinephrine, tau.common = TRUE)
+m.sensoryduration.epi.md
+m.sensoryduration.epi.md$pval.random.w
+m.analgesicduration.la.md <- update(m.analgesicduration.la.md, subgroup = samedose, tau.common = TRUE)
+m.analgesicduration.la.md
+m.analgesicduration.la.md$pval.random.w
+m.analgesicduration.epi.md <- update(m.analgesicduration.md, subgroup = epinephrine, tau.common = TRUE)
+m.analgesicduration.epi.md
+m.analgesicduration.epi.md$pval.random.w
+m.motorduration.epi.md <- update(m.motorduration.md, subgroup = epinephrine, tau.common = TRUE)
+m.motorduration.epi.md
+m.motorduration.epi.md$pval.random.w
+m.complete.md.rma <- rma(yi = m.complete.md$TE, sei = m.complete.md$seTE, method = m.complete.md$method.tau, test = "knha")
 m.complete.md.gosh <- gosh (m.complete.md.rma)
