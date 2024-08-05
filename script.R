@@ -4,6 +4,10 @@ library(esc)
 library(tidyverse)
 library(openxlsx)
 library(metafor)
+library(ggplot2)
+library(gridExtra)
+library(fpc)
+library(mclust)
 
 means <- c(262, 389.5)            # Means of the groups
 sds <- c(63.4, 66.6)              # Standard deviations of the groups
@@ -23,6 +27,7 @@ remove(overall_sd)
 remove(n_groups)
 
 ttcomplete <- read.xlsx("ttcomplete.xlsx")
+ttcomplete.byla <- read.xlsx("ttcomplete.byla.xlsx")
 ttsensory <- read.xlsx("ttsensory.xlsx")
 completesensory <- read.xlsx("completesensory.xlsx")
 ttmotor <- read.xlsx("ttmotor.xlsx")
@@ -49,6 +54,21 @@ m.complete.md <- metacont(n.e = ne,
                           method.tau = "REML",
                           method.random.ci = "HK",
                           title = "Time to Block")
+
+m.complete.byla.md <- metacont(n.e = ne,
+                          mean.e = meane,
+                          sd.e = sde,
+                          n.c = nc,
+                          mean.c = meanc,
+                          sd.c = sdc,
+                          studlab = study,
+                          data = ttcomplete.byla,
+                          sm = "MD",
+                          fixed = FALSE,
+                          random = TRUE,
+                          method.tau = "REML",
+                          method.random.ci = "HK",
+                          title = "Time to Block by Local")
 
 m.ttsensory.md <- metacont(n.e = ne,
                            mean.e = meane,
@@ -88,7 +108,7 @@ m.ttmotor.md <- metacont(n.e = ne,
                          sd.c = sdc,
                          studlab = study,
                          data = ttmotor,
-                         sm = "SMD",
+                         sm = "MD",
                          fixed = FALSE,
                          random = TRUE,
                          method.tau = "REML",
@@ -139,6 +159,22 @@ m.sensoryduration.la.md <- metacont(n.e = ne,
                                  method.random.ci = "HK",
                                  title = "Duration of Motor Block")
 
+m.sensoryduration.epi.md <- metacont(n.e = ne,
+                                    mean.e = meane,
+                                    sd.e = sde,
+                                    n.c = nc,
+                                    mean.c = meanc,
+                                    sd.c = sdc,
+                                    studlab = study,
+                                    data = sensoryduration.la,
+                                    sm = "MD",
+                                    fixed = FALSE,
+                                    random = TRUE,
+                                    method.tau = "REML",
+                                    method.random.ci = "HK",
+                                    title = "Duration of Motor Block")
+
+
 m.motorduration.md <- metacont(n.e = ne,
                                mean.e = meane,
                                sd.e = sde,
@@ -186,67 +222,9 @@ m.analgesicduration.la.md <- metacont(n.e = ne,
                                    method.random.ci = "HK",
                                    title = "Duration of Analgesia")
 
-m.failure.or <- metabin(event.e = ne, n.e = totale, event.c = nc, n.e = totale, studylab = study, data = failure, sm = "OR", method = "MH", MH.exact = TRUE, random = TRUE, method.tau = "PM", method.random.ci = "HK", title = "Block Failure")
+m.failure.or <- metabin(event.e = ne, n.e = totale, event.c = nc, n.c = totalc, studlab = study, data = failure, sm = "OR", method = "MH", MH.exact = TRUE, random = TRUE, method.tau = "PM", method.random.ci = "HK", title = "Block Failure")
 
-meta::forest(m.complete.md, 
-             sortvar = studlab,
-             prediction = TRUE, 
-             print.tau2 = FALSE,
-             label.e = "Mixed Local",
-             label.c = "Long Acting",
-             label.left = "Mixture Faster",
-             label.right = "Long Acting Faster",
-             digits = 1,
-             digits.se = 1,
-             digits.mean = 1,
-             digits.sd = 1,
-             leftcols = c("studlab"),
-             leftlabs = c("Study"))
 
-meta::forest(m.ttsensory.md, 
-             sortvar = TE,
-             prediction = TRUE, 
-             print.tau2 = FALSE,
-             label.e = "Mixed Local",
-             label.c = "Long Acting",
-             digits = 1,
-             digits.se = 1,
-             digits.mean = 1,
-             digits.sd = 1
-)
-
-meta::forest(m.ttmotor.md, 
-             sortvar = TE,
-             prediction = TRUE, 
-             print.tau2 = FALSE,
-             label.e = "Mixed Local",
-             label.c = "Long Acting",
-             digits = 1,
-             digits.se = 1,
-             digits.mean = 1,
-             digits.sd = 1)
-
-meta::forest(m.motorduration.md, 
-             sortvar = TE,
-             prediction = TRUE, 
-             print.tau2 = FALSE,
-             label.e = "Mixed",
-             label.c = "Long Acting",
-             digits = 1,
-             digits.se = 1,
-             digits.mean = 1,
-             digits.sd = 1)
-
-meta::forest(m.analgesicduration.md, 
-             sortvar = TE,
-             prediction = TRUE, 
-             print.tau2 = FALSE,
-             label.e = "Mixed",
-             label.c = "Long Acting",
-             digits = 1,
-             digits.se = 1,
-             digits.mean = 1,
-             digits.sd = 1)
 
 m.complete.ultrasound <- update(m.complete.md, subgroup = ultrasound, tau.common = TRUE)
 m.complete.ultrasound
@@ -260,7 +238,12 @@ m.complete.block$pval.random.w
 m.complete.country <- update(m.complete.md, subgroup = devcountry, tau.common = TRUE)
 m.complete.country
 m.complete.country$pval.random.w
-
+m.complete.byla.long <- update(m.complete.byla.md, subgroup = la, tau.common = TRUE)
+m.complete.byla.long
+m.complete.byla.long$pval.random.w
+m.complete.byla.short <- update(m.complete.byla.md, subgroup = sa, tau.common = TRUE)
+m.complete.byla.short
+m.complete.byla.short$pval.random.w
 m.complete.epi <- update(m.complete.md, subgroup = epi, tau.common = TRUE)
 m.complete.epi
 m.complete.epi$pval.random.w
@@ -280,4 +263,232 @@ m.motorduration.epi.md <- update(m.motorduration.md, subgroup = epinephrine, tau
 m.motorduration.epi.md
 m.motorduration.epi.md$pval.random.w
 m.complete.md.rma <- rma(yi = m.complete.md$TE, sei = m.complete.md$seTE, method = m.complete.md$method.tau, test = "knha")
-m.complete.md.gosh <- gosh (m.complete.md.rma)
+#m.complete.md.gosh <- gosh (m.complete.md.rma)
+#m.complete.diag <- gosh.diagnostics(m.complete.md.gosh)
+#m.complete.inf <- InfluenceAnalysis(m.complete.md, random = TRUE)
+#plot(m.complete.inf, "baujat")
+#plot(m.complete.inf, "influence")
+#plot(m.complete.inf, "es")
+#plot(m.complete.inf, "i2")
+
+meta::forest(m.complete.md, 
+             sortvar = studlab,
+             prediction = TRUE, 
+             print.tau2 = FALSE,
+             label.e = "Mixed Local",
+             label.c = "Long Acting",
+             label.left = "Mixture Faster",
+             label.right = "Long Acting Faster",
+             digits = 1,
+             digits.se = 1,
+             digits.mean = 1,
+             digits.sd = 1,)
+
+meta::forest(m.complete.ultrasound, 
+             subgroup.name = "Ultrasound used",             
+             sortvar = studlab,
+             prediction = TRUE, 
+             print.tau2 = FALSE,
+             label.e = "Mixed local",
+             label.c = "Long acting",
+             label.left = "Mixture faster",
+             label.right = "Long-acting faster",
+             digits = 1,
+             digits.se = 1,
+             digits.mean = 1,
+             digits.sd = 1,)
+meta::forest(m.complete.block,
+             sortvar = studlab,
+             subgroup.name = "Block location",
+             prediction = TRUE, 
+             print.tau2 = FALSE,
+             label.e = "Mixed local",
+             label.c = "Long-acting",
+             label.left = "Mixture faster",
+             label.right = "Long acting faster",
+             digits = 1,
+             digits.se = 1,
+             digits.mean = 1,
+             digits.sd = 1,)
+meta::forest(m.complete.epi,
+             subgroup.name = "Epinephrine used",
+             sortvar = studlab,
+             prediction = TRUE, 
+             print.tau2 = FALSE,
+             label.e = "Mixed local",
+             label.c = "Long-acting",
+             label.left = "Mixture faster",
+             label.right = "Long acting faster",
+             digits = 1,
+             digits.se = 1,
+             digits.mean = 1,
+             digits.sd = 1,)
+meta::forest(m.complete.rob,
+             subgroup.name = "Risk of bias",
+             sortvar = studlab,
+             prediction = TRUE, 
+             print.tau2 = FALSE,
+             label.e = "Mixed local",
+             label.c = "Long-acting",
+             label.left = "Mixture faster",
+             label.right = "Long-acting faster",
+             digits = 1,
+             digits.se = 1,
+             digits.mean = 1,
+             digits.sd = 1)
+meta::forest(m.complete.country,
+             subgroup.name = "Country",
+             sortvar = studlab,
+             prediction = TRUE, 
+             print.tau2 = FALSE,
+             label.e = "Mixed local",
+             label.c = "Long-acting",
+             label.left = "Mixture faster",
+             label.right = "Long-acting faster",
+             digits = 1,
+             digits.se = 1,
+             digits.mean = 1,
+             digits.sd = 1)
+meta::forest(m.complete.byla.long,
+             subgroup.name = "Long-acting local anesthetic",
+             sortvar = studlab,
+             prediction = TRUE, 
+             print.tau2 = FALSE,
+             label.e = "Mixed-local",
+             label.c = "Long-acting",
+             label.left = "Mixture Faster",
+             label.right = "Long-acting Faster",
+             digits = 1,
+             digits.se = 1,
+             digits.mean = 1,
+             digits.sd = 1)
+meta::forest(m.complete.byla.short,
+             subgroup.name = "Short-acting local anesthetic",
+             sortvar = studlab,
+             prediction = TRUE, 
+             print.tau2 = FALSE,
+             label.e = "Mixed local",
+             label.c = "Long-acting",
+             label.left = "Mixture faster",
+             label.right = "Long-acting faster",
+             digits = 1,
+             digits.se = 1,
+             digits.mean = 1,
+             digits.sd = 1)
+meta::forest(m.ttsensory.md, 
+             prediction = TRUE, 
+             print.tau2 = FALSE,
+             label.e = "Mixed local",
+             label.c = "Long-acting",
+             label.left = "Mixture faster",
+             label.right = "Long-acting faster",
+             digits = 1,
+             digits.se = 1,
+             digits.mean = 1,
+             digits.sd = 1)
+
+meta::forest(m.sensoryduration.md,
+             prediction = TRUE, 
+             print.tau2 = FALSE,
+             label.e = "Mixed local",
+             label.c = "Long-acting",
+             label.left = "Long-acting longer",
+             label.right = "Mixed local longer",
+             digits = 1,
+             digits.se = 1,
+             digits.mean = 1,
+             digits.sd = 1)
+meta::forest(m.sensoryduration.epi.md,
+             subgroup.name = "Epinephrine used",
+             prediction = TRUE, 
+             print.tau2 = FALSE,
+             label.e = "Mixed local",
+             label.c = "Long-acting",
+             label.left = "Long-acting longer",
+             label.right = "Mixed local longer",
+             digits = 1,
+             digits.se = 1,
+             digits.mean = 1,
+             digits.sd = 1)
+meta::forest(m.sensoryduration.la.md,
+             subgroup.name = "Long-acting local dose in mixture vs long-acting only",
+             prediction = TRUE, 
+             print.tau2 = FALSE,
+             label.e = "Mixed local",
+             label.c = "Long-acting",
+             label.left = "Long-acting longer",
+             label.right = "Mixed local longer",
+             digits = 1,
+             digits.se = 1,
+             digits.mean = 1,
+             digits.sd = 1)
+
+meta::forest(m.ttmotor.md, 
+             prediction = TRUE, 
+             print.tau2 = FALSE,
+             label.e = "Mixed local",
+             label.c = "Long-acting",
+             label.left = "Mixed local faster",
+             label.right = "Long-acting faster",
+             digits = 1,
+             digits.se = 1,
+             digits.mean = 1,
+             digits.sd = 1)
+
+meta::forest(m.motorduration.md, 
+             
+             prediction = TRUE, 
+             print.tau2 = FALSE,
+             label.e = "Mixed local",
+             label.c = "Long-acting",
+             label.left = "Long-acting longer",
+             label.right = "Mixed Local longer",
+             digits = 1,
+             digits.se = 1,
+             digits.mean = 1,
+             digits.sd = 1)
+
+meta::forest(m.analgesicduration.md, 
+             sortvar = TE,
+             prediction = TRUE, 
+             print.tau2 = FALSE,
+             label.e = "Mixed local",
+             label.c = "Long-acting",
+             label.left = "Long-acting longer",
+             label.right = "Mixed Local longer",
+             digits = 1,
+             digits.se = 1,
+             digits.mean = 1,
+             digits.sd = 1)
+
+meta::forest(m.analgesicduration.epi.md, 
+             subgroup.name = "Epinephrine used",
+             sortvar = studlab,
+             prediction = TRUE, 
+             print.tau2 = FALSE,
+             label.e = "Mixed local",
+             label.c = "Long-acting",
+             label.left = "Mixture shorter",
+             label.right = "Long acting shorter",
+             digits = 1,
+             digits.se = 1,
+             digits.mean = 1,
+             digits.sd = 1,)
+
+meta::forest(m.analgesicduration.la.md, 
+             subgroup.name = "Long-acting local dose in mixture vs long-acting only",
+             sortvar = studlab,
+             prediction = TRUE, 
+             print.tau2 = FALSE,
+             label.e = "Mixed local",
+             label.c = "Long acting",
+             label.left = "Mixture shorter",
+             label.right = "Long acting shorter",
+             digits = 1,
+             digits.se = 1,
+             digits.mean = 1,
+             digits.sd = 1,)
+
+m.bias <- metabias(m.complete.md, method.bias = "Egger")
+m.bias
+meta::funnel(m.complete.md, studlab = TRUE)
