@@ -752,20 +752,20 @@ meta::forest(m.analgesicduration.la.md,
              digits.mean = 1,
              digits.sd = 1,)
 
-m.bias <- metabias(m.complete.md, method.bias = "Egger")
+m.bias <- metabias(m.complete.sen.md, method.bias = "Egger")
 m.bias
-find.outliers(m.complete.md)
-m.complete.nooutlier <- update(m.complete.md, exclude = c(3, 4, 7, 9, 12, 13, 18))
-m.complete.nooutlier
-meta::funnel(m.complete.md, studlab = TRUE)
+find.outliers(m.complete.sen.md)
+m.complete.sen.nooutlier <- update(m.complete.sen.md, exclude = c(3, 4, 7, 9, 12, 13, 18))
+m.complete.sen.nooutlier
+meta::funnel(m.complete.sen.md, studlab = TRUE)
 col.contour = c("gray75", "gray85", "gray95")
-meta::funnel(m.complete.md,
-             xlim = c(-40, 10),
+meta::funnel(m.complete.sen.md,
+             xlim = c(-30, 10),
              contour = c(0.9, 0.95, 0.99),
              col.contour = col.contour,
-             studlab = TRUE
+             
 )
-legend(x = -30, y = 0.01, 
+legend(x = -30, y = 0, 
        legend = c("p < 0.1", "p < 0.05", "p < 0.01"),
        fill = col.contour)
 title("Contour-Enhanced Funnel Plot")
