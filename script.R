@@ -31,6 +31,7 @@ ttcomplete.sen <- read.xlsx("ttcomplete-sen.xlsx")
 ttcomplete.byla <- read.xlsx("ttcomplete.byla.xlsx")
 ttcomplete.sen.byla <- read.xlsx("ttcomplete.sen.byla.xlsx")
 ttsensory <- read.xlsx("ttsensory.xlsx")
+completeblock <- read.xlsx("ttcompleteonly.xlsx")
 completesensory <- read.xlsx("completesensory.xlsx")
 ttmotor <- read.xlsx("ttmotor.xlsx")
 compeltemotor <- read.xlsx("completemotor.xlsx")
@@ -160,6 +161,20 @@ m.completemotor.md <- metacont(n.e = ne,
                                method.tau = "REML",
                                method.random.ci = "HK",
                                title = "Time to Complete Motor Block")
+m.completeblock.md <- metacont(n.e = ne,
+                               mean.e = meane,
+                               sd.e = sde,
+                               n.c = nc,
+                               mean.c = meanc,
+                               sd.c = sdc,
+                               studlab = study,
+                               data = completeblock,
+                               sm = "MD",
+                               fixed = FALSE,
+                               random = TRUE,
+                               method.tau = "REML",
+                               method.random.ci = "HK",
+                               title = "Time to Complete Block")
 
 m.sensoryduration.md <- metacont(n.e = ne,
                                  mean.e = meane,
@@ -323,9 +338,9 @@ m.motorduration.epi.md$k.w
 m.motorduration.epi.md$I2.w
 m.motorduration.epi.md$lower.I2.w
 m.motorduration.epi.md$upper.I2.w
-m.complete.md.rma <- rma(yi = m.complete.md$TE, sei = m.complete.md$seTE, method = m.complete.md$method.tau, test = "knha")
-m.complete.md.gosh <- gosh (m.complete.md.rma)
-m.complete.diag <- gosh.diagnostics(m.complete.md.gosh)
+#m.complete.sen.md.rma <- rma(yi = m.complete.sen.md$TE, sei = m.complete.sen.md$seTE, method = m.complete.sen.md$method.tau, test = "knha")
+#m.complete.sen.md.gosh <- gosh (m.complete.md.rma)
+#m.complete.diag <- gosh.diagnostics(m.complete.md.gosh)
 m.complete.inf <- InfluenceAnalysis(m.complete.md, random = TRUE)
 plot(m.complete.inf, "baujat")
 plot(m.complete.inf, "influence")
@@ -549,7 +564,8 @@ meta::forest(m.complete.sen.block,
              digits = 1,
              digits.se = 1,
              digits.mean = 1,
-             digits.sd = 1,)
+             digits.sd = 1,
+             layout = "RevMan5")
 meta::forest(m.complete.sen.epi,
              subgroup.name = "Epinephrine used",
              sortvar = studlab,
@@ -757,7 +773,7 @@ m.bias
 find.outliers(m.complete.sen.md)
 m.complete.sen.nooutlier <- update(m.complete.sen.md, exclude = c(3, 4, 7, 9, 12, 13, 18))
 m.complete.sen.nooutlier
-meta::funnel(m.complete.sen.md, studlab = TRUE)
+meta::funnel(m.complete.sen.md, studlab = FALSE)
 col.contour = c("gray75", "gray85", "gray95")
 meta::funnel(m.complete.sen.md,
              xlim = c(-30, 10),
