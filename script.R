@@ -29,6 +29,8 @@ remove(n_groups)
 ttcomplete <- read.xlsx("ttcomplete.xlsx")
 ttcomplete.sen <- read.xlsx("ttcomplete-sen.xlsx") #this is the primary outcome
 ttcomplete.sen.bypotency <- read.xlsx("ttcomplete.sen.bypotency.xlsx")
+ttcomplete.sen.bypotency.ul <- read.xlsx("ttcomplete.sen.bypotency.ul.xlsx")
+
 ttcomplete.byla <- read.xlsx("ttcomplete.byla.xlsx")
 ttcomplete.sen.byla <- read.xlsx("ttcomplete.sen.byla.xlsx")
 ttsensory <- read.xlsx("ttsensory.xlsx")
@@ -89,6 +91,20 @@ m.complete.sen.bypotency.md <- metacont(n.e = ne,
                               method.tau = "REML",
                               method.random.ci = "HK",
                               title = "Time to Block")
+m.complete.sen.bypotency.ul.md <- metacont(n.e = ne,
+                                        mean.e = meane,
+                                        sd.e = sde,
+                                        n.c = nc,
+                                        mean.c = meanc,
+                                        sd.c = sdc,
+                                        studlab = study,
+                                        data = ttcomplete.sen.bypotency.ul,
+                                        sm = "MD",
+                                        fixed = FALSE,
+                                        random = TRUE,
+                                        method.tau = "REML",
+                                        method.random.ci = "HK",
+                                        title = "Time to Block")
 m.complete.byla.md <- metacont(n.e = ne,
                           mean.e = meane,
                           sd.e = sde,
@@ -356,6 +372,9 @@ m.motorduration.epi.md$upper.I2.w
 #m.complete.sen.md.rma <- rma(yi = m.complete.sen.md$TE, sei = m.complete.sen.md$seTE, method = m.complete.sen.md$method.tau, test = "knha")
 #m.complete.sen.md.gosh <- gosh (m.complete.md.rma)
 #m.complete.diag <- gosh.diagnostics(m.complete.md.gosh)
+
+
+
 m.complete.inf <- InfluenceAnalysis(m.complete.md, random = TRUE)
 plot(m.complete.inf, "baujat")
 plot(m.complete.inf, "influence")
@@ -432,6 +451,10 @@ m.complete.sen.epi$k.w
 m.complete.sen.epi$I2.w
 m.complete.sen.epi$lower.I2.w
 m.complete.sen.epi$upper.I2.w
+
+#m.complete.sen.bypotency <- update(m.complete.sen.bypotency.md, subgroup = potencyratio, tau.common = TRUE)
+m.complete.sen.bypotency.reg <- metareg(m.complete.sen.bypotency.md, ~potencyratio)
+m.complete.sen.bypotency.ul.reg <- metareg(m.complete.sen.bypotency.ul.md, ~logpotency)
 
 meta::forest(m.complete.md, 
              sortvar = studlab,
