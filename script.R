@@ -27,7 +27,8 @@ remove(overall_sd)
 remove(n_groups)
 
 ttcomplete <- read.xlsx("ttcomplete.xlsx")
-ttcomplete.sen <- read.xlsx("ttcomplete-sen.xlsx")
+ttcomplete.sen <- read.xlsx("ttcomplete-sen.xlsx") #this is the primary outcome
+ttcomplete.sen.bypotency <- read.xlsx("ttcomplete.sen.bypotency.xlsx")
 ttcomplete.byla <- read.xlsx("ttcomplete.byla.xlsx")
 ttcomplete.sen.byla <- read.xlsx("ttcomplete.sen.byla.xlsx")
 ttsensory <- read.xlsx("ttsensory.xlsx")
@@ -59,6 +60,7 @@ m.complete.md <- metacont(n.e = ne,
                           title = "Time to Block")
 m.complete.md
 
+#this is primary
 m.complete.sen.md <- metacont(n.e = ne,
                               mean.e = meane,
                               sd.e = sde,
@@ -73,7 +75,20 @@ m.complete.sen.md <- metacont(n.e = ne,
                               method.tau = "REML",
                               method.random.ci = "HK",
                               title = "Time to Block")
-
+m.complete.sen.bypotency.md <- metacont(n.e = ne,
+                              mean.e = meane,
+                              sd.e = sde,
+                              n.c = nc,
+                              mean.c = meanc,
+                              sd.c = sdc,
+                              studlab = study,
+                              data = ttcomplete.sen.bypotency,
+                              sm = "MD",
+                              fixed = FALSE,
+                              random = TRUE,
+                              method.tau = "REML",
+                              method.random.ci = "HK",
+                              title = "Time to Block")
 m.complete.byla.md <- metacont(n.e = ne,
                           mean.e = meane,
                           sd.e = sde,
